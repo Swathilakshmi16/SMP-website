@@ -1,0 +1,184 @@
+<div class="dt-view">
+    <p class="order-head1" >ONLINE ORDER MANAGEMENT</p>
+    <div class="total-box">
+       
+        <div class="container">
+            <div class="main1">
+                <div class="order-section" *ngIf="orderTitle == 'status'">
+                    <div class="order-item">
+                        <p class="order-head">#101 swathi</p>
+                        <span>₹43.00 | 03 Mar 2024 10:56</span>
+                        <div>
+                            <span class="badge green">CONFIRMED</span>
+                            <span class="badge blue">PAID</span>
+                        </div>
+                    </div>
+                    <div class="order-item">
+                        <p class="order-head">#102 swathi</p>
+                        <span>₹85.00 | 02 Mar 2024 10:41</span>
+                        <div>
+                            <span class="badge gray">PENDING</span>
+                            <span class="badge gray">UNPAID</span>
+                        </div>
+                    </div>
+                    <div class="order-item">
+                        <p class="order-head">#103 Swathi</p>
+                        <span>₹32.00 | 02 Mar 2024 22:13</span>
+                        <div>
+                            <span class="badge red">CANCELLED</span>
+                            <span class="badge gray">UNPAID</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-section" *ngIf="orderTitle == 'summary'" >
+                    <div class="order-management1">
+                       
+                        <div class="fulfillment1">
+                            <h4>Fulfillment (today)</h4>
+                            <table class="service-table1">
+                                <tr>
+                                    <td><strong>Pickup</strong></td>
+                                    <td>33</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Delivery</strong></td>
+                                    <td>52</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Dine-in</strong></td>
+                                    <td>15</td>
+                                </tr>
+                            </table>
+                            <button class="print-button1">🖨️ Print Packing Slip</button>
+            
+                        </div>
+                    </div>
+                </div>
+                <div class="order-section" *ngIf="orderTitle == 'invoice'" >
+                    <div class="image-container">
+                        <img src="inn.png" alt="Rolling Image" class="rolling-image">
+                    </div>
+                </div>
+                <div class="order-section" *ngIf="orderTitle == 'notify'" >
+                    <div class="left-section">
+            
+                        <div class="notification">
+                            <span class="status-label status-blue">New order received</span>
+                            <img src="A.png" alt="User 1">
+                        </div>
+            
+                        <div class="notification">
+                            <span class="status-label status-green">Paid and confirmed</span>
+                            <img src="B.png" alt="User 2">
+                            <!-- <span class="icon">💰</span> -->
+                        </div>
+            
+                        <div class="notification">
+                            <span class="status-label status-green">Order fulfilled!</span>
+                            <img src="C.png" alt="User 3">
+                            <!-- <span class="icon">🚚</span> -->
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="management-section">
+                   
+                  
+                    <div class="management-links">
+                        <button (click)="changeTab('status')" class="link-item" [ngClass]="orderTitle == 'status' ? 'order-btn-active' : ''">🔄 Status</button>
+                        <button (click)="changeTab('summary')" class="link-item" [ngClass]="orderTitle == 'summary' ? 'order-btn-active' : ''">📄 Summary</button>
+                        <button (click)="changeTab('invoice')" class="link-item" [ngClass]="orderTitle == 'invoice' ? 'order-btn-active' : ''">🧾 Invoice</button>
+                        <button (click)="changeTab('notify')" class="link-item" [ngClass]="orderTitle == 'notify' ? 'order-btn-active' : ''">🔔 Notify</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="md-view">
+    <div>
+        <p class="order-head1">ONLINE ORDER MANAGEMENT</p>
+        <div class="total-box">
+            <div class="container">
+                <div class="fl">
+                <div class="main1">
+                    <div class="management-links">
+                        <button (click)="changeTab('status')" class="link-item" [ngClass]="orderTitle == 'status' ? 'order-btn-active' : ''">🔄 Status</button>
+                        <button (click)="changeTab('summary')" class="link-item" [ngClass]="orderTitle == 'summary' ? 'order-btn-active' : ''">📄 Summary</button>
+                        <button (click)="changeTab('invoice')" class="link-item" [ngClass]="orderTitle == 'invoice' ? 'order-btn-active' : ''">🧾 Invoice</button>
+                        <button (click)="changeTab('notify')" class="link-item" [ngClass]="orderTitle == 'notify' ? 'order-btn-active' : ''">🔔 Notify</button>
+                    </div>
+    
+                    <div class="order-section" *ngIf="orderTitle == 'status'">
+                        <div class="order-item">
+                            <p class="order-head">#101 Roopa</p>
+                            <span>₹43.00 | 03 Mar 2024 10:56</span>
+                            <div>
+                                <span class="badge green">CONFIRMED</span>
+                                <span class="badge blue">PAID</span>
+                            </div>
+                        </div>
+                        <div class="order-item">
+                            <p class="order-head">#102 Swathi</p>
+                            <span>₹85.00 | 02 Mar 2024 10:41</span>
+                            <div>
+                                <span class="badge gray">PENDING</span>
+                                <span class="badge gray">UNPAID</span>
+                            </div>
+                        </div>
+                        <div class="order-item">
+                            <p class="order-head">#103 Julie</p>
+                            <span>₹32.00 | 02 Mar 2024 22:13</span>
+                            <div>
+                                <span class="badge red">CANCELLED</span>
+                                <span class="badge gray">UNPAID</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="order-section" *ngIf="orderTitle == 'summary'">
+                        <div class="order-management1">
+                            <div class="fulfillment1">
+                                <h4>Fulfillment (today)</h4>
+                                <table class="service-table1">
+                                    <tr><td><strong>Pickup</strong></td><td>33</td></tr>
+                                    <tr><td><strong>Delivery</strong></td><td>52</td></tr>
+                                    <tr><td><strong>Dine-in</strong></td><td>15</td></tr>
+                                </table>
+                                <button class="print-button1">🖨️ Print Packing Slip</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="order-section" *ngIf="orderTitle == 'invoice'">
+                        <div class="image-container">
+                            <img src="swathi.jpg" alt="Rolling Image" class="rolling-image">
+                        </div>
+                    </div>
+    
+                    <div class="order-section" *ngIf="orderTitle == 'notify'">
+                        <div class="left-section">
+                            <div class="notification">
+                                <span class="status-label status-blue">New order received</span>
+                                <img src="A.png" alt="User 1">
+                            </div>
+                            <div class="notification">
+                                <span class="status-label status-green">Paid and confirmed</span>
+                                <img src="B.png" alt="User 2">
+                            </div>
+                            <div class="notification">
+                                <span class="status-label status-green">Order fulfilled!</span>
+                                <img src="C.png" alt="User 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+
+</div>

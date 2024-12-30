@@ -1,0 +1,374 @@
+
+
+
+
+
+
+
+@media only screen and (min-width:1200px) {
+ 
+
+    .section3{
+        margin-top: 100px;
+      }
+    .acts{
+        font-weight: bolder;
+          text-align: center;
+          font-size: 2.5em; 
+          font-family: "Roboto Slab", serif;
+          color: #f3820c;
+      }
+    
+    .title4 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 3.5em; 
+        font-family: "Roboto Slab", serif;
+    }
+    
+    
+    
+    .box1, .box2, .box3, .box4 {
+      
+        width: 300px;
+        height: 450px;
+        margin-top: 100px;
+        padding: 20px;
+        background: linear-gradient(#f3820c, #fffcf7, #8652d2);
+        border: 2px solid #8652d2; 
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        transition: transform 0.3s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+      
+    .box1 .title, .box2 .title, .box3 .title, .box4 .title {
+      position: absolute;
+      top: 10px;    
+      left: 10px;   
+      font-weight: bold;
+      font-size: 1.2em;
+      color: #333;
+      z-index: 10;
+    }
+     
+    
+    
+    
+    
+    .img1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+        transition: opacity 0.3s;
+    }
+    
+    
+    .box1:hover .img1, .box2:hover .img1, .box3:hover .img1, .box4:hover .img1 {
+        opacity: 0;
+    }
+    
+    .titles {
+        font-size: 1.5em;
+        color:#000000;
+        font-weight: bolder;
+        position: absolute;
+        top: 10px; 
+        // left: 1050px;
+        transform: translateX(-50%);
+        margin: 0;
+        z-index: 1;
+        text-align: center; 
+        font-family: "Roboto Slab", serif;
+        
+    }
+    
+    .subt {
+        color: #555;
+        font-size: 1em;
+        opacity: 0;
+        transition: opacity 0.3s;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        text-align: center;
+        width: 80%;
+        margin: 0;
+    }
+    
+    
+    .box1:hover .subt, .box2:hover .subt, .box3:hover .subt, .box4:hover .subt {
+        opacity: 1;
+    }
+    
+    
+    .box1:hover .titles, .box2:hover .titles, .box3:hover .titles, .box4:hover .titles {
+        opacity: 0;
+    }
+  
+  }
+  
+  @media only screen and (min-width:600px) and (max-width:1200px){
+    .box-center{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+    }
+    .section3{
+        margin-top: 100px;
+      }
+    .acts{
+        font-weight: bolder;
+          text-align: center;
+          font-size: 2.5em; 
+          font-family: "Roboto Slab", serif;
+          color: #f3820c;
+      }
+    
+    .title4 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 3.5em; 
+        font-family: "Roboto Slab", serif;
+    }
+    
+    
+    
+    .box1, .box2, .box3, .box4 {
+      
+        width: 100%;
+        height: 450px;
+        margin-top: 100px;
+        padding: 20px;
+        background: linear-gradient(#f3820c, #fffcf7, #8652d2);
+        border: 2px solid #8652d2; 
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        transition: transform 0.3s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+      
+    .box1 .title, .box2 .title, .box3 .title, .box4 .title {
+      position: absolute;
+      top: 10px;    
+      left: 10px;   
+      font-weight: bold;
+      font-size: 1.2em;
+      color: #333;
+      z-index: 10;
+    }
+     
+    
+    
+    
+    
+    .img1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+        transition: opacity 0.3s;
+    }
+    
+    
+    .box1:hover .img1, .box2:hover .img1, .box3:hover .img1, .box4:hover .img1 {
+        opacity: 0;
+    }
+    
+    .titles {
+        font-size: 1.5em;
+        color:#000000;
+        font-weight: bolder;
+        position: absolute;
+        top: 10px; 
+        // left: 1050px;
+        transform: translateX(-50%);
+        margin: 0;
+        z-index: 1;
+        text-align: center; 
+        font-family: "Roboto Slab", serif;
+        
+    }
+    
+    .subt {
+        color: #555;
+        font-size: 1em;
+        opacity: 0;
+        transition: opacity 0.3s;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        text-align: center;
+        width: 80%;
+        margin: 0;
+    }
+    
+    
+    .box1:hover .subt, .box2:hover .subt, .box3:hover .subt, .box4:hover .subt {
+        opacity: 1;
+    }
+    
+    
+    .box1:hover .titles, .box2:hover .titles, .box3:hover .titles, .box4:hover .titles {
+        opacity: 0;
+    }
+
+  }
+  
+
+
+  @media only screen and (max-width:600px) {
+    .box-center{
+        padding: 0px 20px;
+    }
+
+
+    .section3{
+        margin-top: 75px;
+      }
+    .acts{
+        font-weight: bolder;
+          text-align: center;
+          font-size: 1.5em; 
+          font-family: "Roboto Slab", serif;
+          color: #f3820c;
+      }
+    
+    .title4 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 3.5em; 
+        font-family: "Roboto Slab", serif;
+    }
+    
+    
+    
+    .box1, .box2, .box3, .box4 {
+      
+        width: 100%;
+        height: 350px;
+        margin-top: 50px;
+        padding: 20px;
+        background: linear-gradient(#f3820c, #fffcf7, #8652d2);
+        border: 2px solid #8652d2; 
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        transition: transform 0.3s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+      
+    .box1 .title, .box2 .title, .box3 .title, .box4 .title {
+      position: absolute;
+      top: 10px;    
+      left: 10px;   
+      font-weight: bold;
+      font-size: 1.2em;
+      color: #333;
+      z-index: 10;
+    }
+     
+    
+    
+    
+    
+    .img1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+        transition: opacity 0.3s;
+    }
+    
+    
+    .box1:hover .img1, .box2:hover .img1, .box3:hover .img1, .box4:hover .img1 {
+        opacity: 0;
+    }
+    
+    .titles {
+        font-size: 1.5em;
+        color:#000000;
+        font-weight: bolder;
+        position: absolute;
+        top: 10px; 
+        // left: 1050px;
+        transform: translateX(-50%);
+        margin: 0;
+        z-index: 1;
+        text-align: center; 
+        font-family: "Roboto Slab", serif;
+        
+    }
+    
+    .subt {
+        color: #555;
+        font-size: 1em;
+        opacity: 0;
+        transition: opacity 0.3s;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        text-align: center;
+        width: 80%;
+        margin: 0;
+    }
+    
+    
+    .box1:hover .subt, .box2:hover .subt, .box3:hover .subt, .box4:hover .subt {
+        opacity: 1;
+    }
+    
+    
+    .box1:hover .titles, .box2:hover .titles, .box3:hover .titles, .box4:hover .titles {
+        opacity: 0;
+    }
+  
+  
+
+
+
+  }
+  
+  
+  
+  

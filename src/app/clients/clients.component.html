@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+      <p class="head">OUR PARTNERS</p>
+      <p class="sunhead">Your success is our success-partners in every step, every triumph!</p>
+      <div class="col-12">
+        <marquee behavior="scroll" direction="left" scrollamount="0">
+        <div class="rolling-container">
+         
+          <div *ngFor="let image of images">
+            <img [src]="image.imageUrl" alt="Rolling Image" class="rolling-image">
+          </div>
+        
+        </div>
+      </marquee>
+      </div>
+    </div>
+</div>
+

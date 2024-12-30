@@ -1,0 +1,348 @@
+
+ .my-5{
+// margin-top: 100px;
+margin-top: 50px;
+
+ }
+
+ .why-title{
+
+  font-weight: bolder;
+    text-align: center;
+      font-size: 50px; 
+      font-family: "Roboto Slab", serif;
+       color: #8253d3;
+       margin-top: -5px;
+ }
+
+.why-subtitle{
+ font-family: "lado", serif;
+ font-weight: 150px;
+ color: #3D4C5E;
+ margin-top: 40px;
+ text-align: left; 
+//  font-style: normal;
+ font-size: 22px;
+//  font-style: italic;
+ margin-top: -1px;
+}
+  
+  .box-design {
+    top: 0;
+        left: 0;
+        border: 8px solid #ddd;
+        box-shadow: 0px 5px 15px 1px rgba(150, 120, 200, 0.3);
+        z-index: 2;
+        margin-left: 12px;
+        margin-top: -302px;
+        height: 190px;
+        width: auto;
+   
+  }
+  
+  .box-code {
+    top: 10px;
+    right: 106px;
+    border: 8px solid #ddd;
+    box-shadow: 0px 5px 15px 1px rgba(150, 120, 200, 0.3);
+    height: 200px;
+    position: absolute;
+    border-radius: 20px;
+    z-index: 2;
+    width: auto;
+
+  
+  }
+  
+  .box-feature {
+    top: 112px;
+    left: 3%;
+    align-items: center;
+    border: 8px solid #ddd;
+    box-shadow: 0px 5px 15px 1px rgba(150, 120, 200, 0.3);
+    width: auto;
+    height: 210px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 20px;
+    
+  }
+
+  .common-icon {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background-color: #FFEBE5;
+    position: absolute;
+    z-index: 2;
+    margin-top: -44px;
+    margin-left: -3px;
+
+}
+
+
+
+.common-icon2 {
+  height: 80px;
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.1);
+        border-radius: 25px;
+        background-color: #fff9e4;
+        position: absolute;
+        z-index: 2;
+        margin-top: 31px;
+        margin-left: 65px;
+    
+    
+
+  
+}
+
+.common-icon1 {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  background-color:#F0FDD7;
+  position: absolute;
+  z-index: 2;
+  margin-top: 110px;
+  margin-left: -4px;
+  
+}
+  
+  .box-design:hover, .box-code:hover, .box-feature:hover {
+    transform: scale(1.05);
+  }
+
+
+
+  ul.list-unstyled {
+    padding-left: 0;
+    list-style: none; 
+  }
+  
+  li {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
+  }
+  
+  .checkmark {
+    color: #f3820c; 
+    font-size: 20px; 
+    margin-right: 10px; 
+  }
+  
+  .mb-2 {
+    // font-family: "lado";
+    margin-left: 5px;
+    // font-size: 30px;  
+    // font-style: italic;
+    line-height: 1.6; 
+ }
+ 
+.creation-images .bg-shape-1 svg, 
+.creation-images .bg-shape-2 svg {
+  color: rgba(110, 250, 204, 0.2);
+}
+.floating-boxes{
+  margin-top: 120px;
+}
+
+.benefits-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.benefits-list li {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  color: #333;
+  margin-top: 10px;
+  font-family: "lado", serif;
+}
+
+.benefits-list .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+
+  // width: 24px;
+  //   height: 24px;
+  //   margin-right: 3px;
+  //   margin-top: -15px;
+}
+
+
+
+
+
+@media only screen and (max-width:600px) {
+
+  .my-5{
+     margin-top: 30px;
+  }
+ 
+  .why-title{
+     font-weight: bolder;
+     text-align: center;
+     font-size: 35px; 
+     font-family: "Roboto Slab", serif;
+     color: #8253d3;
+     margin-top: 0;
+  }
+ 
+  .why-subtitle{
+     font-family: "lado", serif;
+     font-weight: 400;
+     color: #3D4C5E;
+     text-align: justify; 
+     font-size: 18px;
+     margin-top: 117px;
+ }
+ 
+  .box-design{
+    border: 6px solid #ddd;
+        box-shadow: 0px 4px 12px 1px rgba(150, 120, 200, 0.3);
+        height: auto;
+        width: 62%;
+        margin: 10px auto;
+        position: relative;
+        border-radius: 15px;
+        margin-top: -117px;
+        margin-left: 6px;
+    
+  }
+  
+  
+  
+  .box-code{
+    border: 6px solid #ddd;
+        box-shadow: 0px 4px 12px 1px rgba(150, 120, 200, 0.3);
+        height: auto;
+        width: 62%;
+        margin: 10px auto;
+        margin-left: 183px;
+        position: relative;
+        border-radius: 15px;
+        margin-top: -47px;
+  } 
+  
+  
+  
+  .box-feature {
+    border: 6px solid #ddd;
+        box-shadow: 0px 4px 12px 1px rgba(150, 120, 200, 0.3);
+        height: auto;
+        width: 62%;
+        margin: 10px auto;
+        position: relative;
+        border-radius: 15px;
+        margin-top: -133px;
+        margin-left: 7px;
+ }
+ 
+  .common-icon, .common-icon1, .common-icon2 {
+     height: 60px;
+     width: 60px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+     border-radius: 20px;
+     position: absolute;
+     z-index: 2;
+     margin: 5px;
+ }
+ 
+  .contact-button {
+     background-color: #f3820c;
+     color: #ffffff;
+     width: 90%;  
+     height: 45px;   
+     font-size: 18px;
+     font-weight: 600;
+     text-decoration: none;
+     border-radius: 5px 25px 2px 25px;
+     border: none;
+     margin: 20px auto; 
+     display: block;  
+     text-align: center;  
+     line-height: 45px; 
+     transition: all 0.3s ease;  
+ }
+ 
+  .contact-button:hover {
+     background-color: #8253d3;
+     color: #ffffff;
+     font-size: 18px;
+     font-weight: 600;
+     border: none;
+     border-radius: 25px 5px 30px 2px;
+     margin-top: 15px;  
+     line-height: 45px;  
+     height: 45px; 
+     text-align: center;  
+     display: block;  
+ }
+ 
+  ul.list-unstyled {
+     padding-left: 0;
+     list-style: none; 
+ }
+ 
+  li {
+     display: flex; 
+     align-items: center; 
+     margin-bottom: 10px; 
+ }
+ 
+  .checkmark {
+     color: #f3820c; 
+     font-size: 18px; 
+     margin-right: 10px; 
+ }
+ 
+  .mb-2 {
+     margin-left: 5px;
+     line-height: 1.6; 
+ }
+ 
+  .benefits-list {
+     list-style-type: none;
+     padding: 0;
+ }
+ 
+  .benefits-list li {
+     display: flex;
+     align-items: center;
+     font-size: 16px;
+     color: #333;
+     margin-top: 8px;
+     font-family: "lado", serif;
+ }
+ 
+  .benefits-list .icon {
+     width: 20px;
+     height: 20px;
+     margin-right: 8px;
+ }
+ 
+  .floating-boxes {
+     margin-top: 80px;
+     margin-left: 30px;
+ }
+ }
+ 

@@ -1,0 +1,352 @@
+@media only screen and (min-width:1200px) {
+   
+  
+@keyframes upDown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-30px); } 
+    100% { transform: translateY(0); } 
+}
+
+
+.section1 img {
+  animation: upDown 3s ease-in-out infinite;
+  // margin-left: -60px;
+  // margin-top: 99px;
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
+}
+
+
+
+
+@keyframes flashText {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .titlem {
+    font-weight: bolder;
+    text-align: left;
+    font-size: 40px; 
+    font-family: 'Neue Plak Condensed';
+    color: #8253d3;
+    margin-top: 100px;
+    animation: flashText 1.5s ease-out; 
+    
+  
+    
+  }
+  
+  .subtitle {
+    font-family: 'Neue Plak Condensed';
+    font-weight: 150px;
+    color: #3D4C5E;
+    animation: flashText 2s ease-out;
+    // margin-top: 37px;
+    text-align: left; 
+    font-size: 25px;
+  }
+  
+
+
+
+
+
+.bgimages{
+  margin-top: 44px;
+  height: 500px;
+  width: auto;
+  object-fit: contain;
+  // margin-left: 10px;
+  position: relative;
+  
+
+}
+
+
+@keyframes moveLeft {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(10px); } 
+    100% { transform: translateX(0); } 
+}
+
+.sap {
+  // font-weight: bolder;
+  font-size: 45px;
+  font-family: 'Neue Plak Condensed';
+  color: #f3820c;
+  margin-top: 10px;
+  animation: flashText 1.5s ease-out;
+}
+
+
+.contact-button {
+  background-color: #f3820c;
+  color: #ffffff;
+  width:31%;  
+  height: 50px;   
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 5px 29px 2px 29px;
+  border: none;
+  margin-top: 30px;
+  display: inline-block;  
+  text-align: center;  
+  line-height: 50px; 
+  transition: all 0.3s ease;  
+  margin-left: -3px;
+ 
+}
+
+.contact-button:hover {
+  background-color: #8253d3;
+  color: #ffffff;
+  width: 31%;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 29px 5px 30px 2px;
+  margin-top: 20px;  
+  line-height: 50px;  
+  height: 50px; 
+  text-align: center;  
+  display: inline-block;  
+}
+
+
+
+
+  }
+  
+  @media only screen and (min-width:600px) and (max-width:1200px){
+   
+
+  
+    @keyframes upDown {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-30px); } 
+      100% { transform: translateY(0); } 
+  }
+  
+  
+  .section1 img {
+    animation: upDown 3s ease-in-out infinite;
+    // margin-left: -60px;
+    // margin-top: 99px;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+  }
+  
+  
+  
+  
+  @keyframes flashText {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    
+    .titlem {
+      
+        font-weight: bolder;
+        text-align: left;
+        font-size: 38px;
+        font-family: 'Neue Plak Condensed';
+        color: #8253d3;
+        margin-top: 66px;
+        animation: flashText 1.5s ease-out;
+    
+      
+    }
+    
+    .subtitle {
+      font-family: 'Neue Plak Condensed';
+        font-weight: 150px;
+        color: #3D4C5E;
+        animation: flashText 2s ease-out;
+        text-align: left;
+        font-size: 21px;
+        text-align: justify;
+    }
+    
+  
+  
+  
+  
+  
+  .bgimages{
+    margin-top: 44px;
+    height: 329px;
+    width: auto;
+    object-fit: contain;
+    margin-left: 86px;
+    position: relative;
+  
+  }
+  
+  
+  @keyframes moveLeft {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(10px); } 
+      100% { transform: translateX(0); } 
+  }
+  
+  .sap {
+    // font-weight: bolder;
+    font-size: 38px;
+    font-family: 'Neue Plak Condensed';
+    color: #f3820c;
+    margin-top: 10px;
+    animation: flashText 1.5s ease-out;
+  }
+  
+  
+  .contact-button {
+    background-color: #f3820c;
+    color: #ffffff;
+    width:31%;  
+    height: 50px;   
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px 29px 2px 29px;
+    border: none;
+    margin-top: 30px;
+    display: inline-block;  
+    text-align: center;  
+    line-height: 50px; 
+    transition: all 0.3s ease;  
+    margin-left: -3px;
+    font-family: 'Neue Plak Condensed';
+   
+  }
+  
+  .contact-button:hover {
+    background-color: #8253d3;
+    color: #ffffff;
+    width: 31%;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 29px 5px 30px 2px;
+    margin-top: 20px;  
+    line-height: 50px;  
+    height: 50px; 
+    text-align: center;  
+    display: inline-block;  
+  }
+  
+}
+  
+@media only screen and (max-width:600px) {
+
+  @keyframes upDown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-30px); } 
+    100% { transform: translateY(0); } 
+  }
+
+  .section1 img {
+    animation: upDown 3s ease-in-out infinite;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+  }
+
+  @keyframes flashText {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  .titlem {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Neue Plak Condensed';
+    color: #8253d3;
+    margin-top: 40px;
+    animation: flashText 1.5s ease-out;
+  }
+
+  .subtitle {
+    font-family: "lado", serif;
+    font-weight: 400;
+    color: #3D4C5E;
+    animation: flashText 2s ease-out;
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  .bgimages {
+    margin-top: -43 px;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    margin-left: 0;
+    position: relative;
+  }
+
+  @keyframes moveLeft {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(10px); } 
+    100% { transform: translateX(0); } 
+  }
+
+  .sap {
+    font-size: 28px;
+    font-family: 'Neue Plak Condensed', sans-serif;
+    color: #f3820c;
+    margin-top: 10px;
+    animation: flashText 1.5s ease-out;
+  }
+
+  .contact-button {
+    background-color: #f3820c;
+    color: #ffffff;
+    width: 90%;
+    height: 45px;   
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px 29px 2px 29px;
+    border: none;
+    margin-top: 20px;
+    display: block;  
+    text-align: center;  
+    line-height: 45px; 
+    transition: all 0.3s ease;  
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-button:hover {
+    background-color: #8253d3;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 29px 5px 30px 2px;
+    margin-top: 15px;  
+    line-height: 45px;  
+    height: 45px; 
+    text-align: center;  
+    display: block;  
+  }
+}

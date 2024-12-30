@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+        font-family: Arial, sans-serif;
+      
+        background: linear-gradient(
+            135deg,
+            #fffcf7 0%,    
+            #f5f5f5 50%,                    
+            #fffcf7 100%     
+        );
+        overflow-x: hidden;
+
+    
+    }
+
+    @font-face {
+        font-family: 'NeuePlak';
+        src: url('../public/fonts/neue-plak/Neue\ Plak\ Condensed\ Regular.ttf') format('truetype'),
+            ;
+    }
+    
+   
+    
+    @font-face {
+        font-family: 'BrushScript';
+        src: url('../public/fonts/neue-plak/brush-script/BrushScriptOpti-Regular.otf') format('opentype'),
+             
+      
+    }
+    
+    
+    

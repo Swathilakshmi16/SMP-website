@@ -1,0 +1,138 @@
+@media only screen and (min-width:1200px) {
+.rolling-container {
+    display: flex;
+    animation: rollLeft 15s linear infinite;  
+    
+  }
+  
+  .rolling-image {
+    width: 300px;  
+    margin-right: 20px;
+    height: 300px;  
+    
+  }
+  
+  @keyframes rollLeft {
+    0% {
+      transform: translateX(0);  
+    }
+    100% {
+      transform: translateX(-100%);  
+    }
+  }
+  
+  .head {
+    font-weight: bolder;
+    text-align: left;
+    font-size: 50px; 
+    font-family: "Roboto Slab", serif;
+    color: #8253d3;
+    margin-top: 100px;
+    text-align: center;
+  
+    
+
+    
+  }
+  .sunhead{
+    font-family: "lado", serif;
+    font-weight: 100px;
+    color: #3D4C5E;
+    // animation: flashText 2s ease-out;
+    // margin-top: 37px;
+    text-align: center; 
+    // font-style: italic;
+    font-size: 25px;
+  }
+  
+}
+@media only screen and (min-width:600px) and (max-width:1200px){
+  .rolling-container {
+    display: flex;
+    animation: rollLeft 15s linear infinite;  
+    
+  }
+  
+  .rolling-image {
+    width: 300px;  
+    margin-right: 20px;
+    height: 300px;  
+    
+  }
+  
+  @keyframes rollLeft {
+    0% {
+      transform: translateX(0);  
+    }
+    100% {
+      transform: translateX(-100%);  
+    }
+  }
+  
+  .head {
+    font-weight: bolder;
+    text-align: left;
+    font-size: 50px; 
+    font-family: "Roboto Slab", serif;
+    color: #8253d3;
+    margin-top: 100px;
+    text-align: center;
+  }
+  .sunhead{
+    font-family: "lado", serif;
+    font-weight: 100px;
+    color: #3D4C5E;
+    // animation: flashText 2s ease-out;
+    // margin-top: 37px;
+    text-align: center; 
+    // font-style: italic;
+    font-size: 25px;
+  }
+  
+
+}
+
+@media only screen and (max-width:600px) {
+  .rolling-container {
+    display: flex;
+    animation: rollLeft 15s linear infinite;  
+    
+  }
+  
+  .rolling-image {
+    width: 118px;
+        height: 118px;
+         
+    
+  }
+  
+  @keyframes rollLeft {
+    0% {
+      transform: translateX(0);  
+    }
+    100% {
+      transform: translateX(-100%);  
+    }
+  }
+  
+  .head {
+    font-weight: bolder;
+        text-align: left;
+        font-size: 33px;
+        font-family: "Roboto Slab", serif;
+        color: #8253d3;
+        margin-top: 34px;
+        text-align: center;
+   
+  }
+  .sunhead{
+    font-family: "lado", serif;
+        font-weight: 100px;
+        color: #3D4C5E;
+        text-align: center;
+        font-size: 17px;
+    
+  }
+  
+
+}
