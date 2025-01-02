@@ -407,7 +407,7 @@
   width: auto;
   height: 228px;
   margin: 0 auto;
-  border: 1px solid #ccabef;
+  border: 1px solid #f3820c;
   z-index: 1;
   position: relative;
   margin-top: -35px;
@@ -423,8 +423,10 @@
 
 .service-card.hovered .why-title{
   color: white;
-  font-size: 24px;
-  font-family: "DM Serif Display", serif;
+  font-size: 28px;
+  // font-weight: 500px;
+  font-weight: 600;
+  font-family: 'Neue Plak Condensed Regular', sans-serif;
 
 }
 .service-card.hovered .why-subtitle {
@@ -437,10 +439,11 @@
 
 
 .why-title {
-  font-size: 24px;
+  font-size: 28px;
   color: rgba(0, 0, 0, 0.618);
   margin-top: 34px;
-  font-family: "DM Serif Display", serif;
+  font-weight: 600;
+  font-family: 'Neue Plak Condensed Regular', sans-serif;
 
 }
 
@@ -486,10 +489,10 @@
   transform: scale(1.2) translateY(-10px);
 }
 .services-heading{
-  font-family: 'NeuePlak', sans-serif;
-  font-weight:800;
+  font-family: 'Neue Plak Condensed Regular', sans-serif;
+  font-weight:700;
   font-size:45px;
-  color:#f3820c; 
+  color:#8253d3; 
   text-align: center;
   margin-top:40px;
 
