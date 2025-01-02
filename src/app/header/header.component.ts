@@ -6,6 +6,10 @@ import * as AOS from 'aos';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent implements OnInit {
+isMenuOpen: any;
+toggleMenu() {
+throw new Error('Method not implemented.');
+}
   
   ngOnInit(): void {
     AOS.init({
@@ -13,5 +17,6 @@ export class HeaderComponent implements OnInit {
       once: false,
 });
 }
+
 
 }
