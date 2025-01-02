@@ -9,8 +9,9 @@
     .how-title {
       text-align: center;
       margin-bottom: 40px;
-      font-family: "DM Serif Display", serif;
-      font-weight:800;
+      font-family: 'Neue Plak Condensed Regular', sans-serif;
+      font-weight: 800;
+   
       font-size:50px;
       color: #883DCF;
       margin-top: 40px;
@@ -62,19 +63,20 @@
     }
    
     .sub-title {
-      font-size: 20px;
+      font-size: 28px;
       font-weight: bold;
       color: #333;
       margin-bottom: 15px;
-      font-family: 'Urbanist', sans-serif;
+      font-family: 'Neue Plak Condensed Regular', sans-serif;
+      font-weight: 500;
     }
     
     
     .dec {
-      font-size: 16px;
+      font-size: 19px;
       color: #666;
       line-height: 1.5;
-      font-family: 'Urbanist', sans-serif;
+      font-family: 'lado', sans-serif;
     }
   }
   @media only screen and (min-width:768px) and (max-width:1200px){

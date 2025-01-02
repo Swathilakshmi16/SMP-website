@@ -15,7 +15,10 @@ body {
 
    
     
-   
+    @font-face {
+        font-family: 'Neue Plak Condensed Regular';
+        src: url('../public/fonts/neue-plak/Neue\ Plak\ Condensed\ Regular.ttf') format('truetype');
+    }
     
     @font-face {
         font-family: 'BrushScript';

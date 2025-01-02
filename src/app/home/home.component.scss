@@ -35,8 +35,9 @@
   .titlem {
     font-weight: bolder;
     text-align: left;
-    font-size: 40px; 
-    font-family: "DM Serif Display", serif;
+    font-size: 50px; 
+    font-family: 'Neue Plak Condensed Regular', sans-serif;
+    font-weight: 800;
     color: #8253d3;
     margin-top: 100px;
     animation: flashText 1.5s ease-out; 
@@ -46,7 +47,7 @@
   }
   
   .subtitle {
-    font-family: "DM Serif Display", serif;
+    font-family: "lado", serif;
     font-weight: 150px;
     color: #3D4C5E;
     animation: flashText 2s ease-out;
@@ -80,8 +81,9 @@
 
 .sap {
   // font-weight: bolder;
-  font-size: 45px;
-  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  font-family: 'Neue Plak Condensed Regular', sans-serif;
+  font-weight: 800;
   color: #f3820c;
   margin-top: 10px;
   animation: flashText 1.5s ease-out;
@@ -104,6 +106,8 @@
   line-height: 50px; 
   transition: all 0.3s ease;  
   margin-left: -3px;
+  font-family: 'Neue Plak Condensed Regular', sans-serif;
+
  
 }
 
