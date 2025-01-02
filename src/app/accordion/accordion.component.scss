@@ -22,7 +22,7 @@
 .card-header {
     background: #f3820c;
     color: white;
-    padding: 10px;
+    padding: 5px;
     // margin-top: 50px;
 }
 
@@ -65,9 +65,10 @@
 }
 .acc-title{
     font-weight: bolder;
-    text-align: left;
+    text-align: center;
     font-size: 50px; 
-    font-family: "Roboto Slab", serif;
+    font-family: 'Neue Plak Condensed Regular', sans-serif;
+    font-size: 800;
     color: #8253d3;
     
     animation: flashText 1.5s ease-out;
