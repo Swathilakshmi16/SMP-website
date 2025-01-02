@@ -1,40 +1,140 @@
-
-<p class="why-title" >WHY US</p>
-<div class="my-5">
- 
-<section class="container">
-  <div class="row align-items-center">
-   
-    <div class="col-md-6 position-relative">
-      <div class="floating-boxes">
-        <img src="food2.jpg" alt="Clean Design" class="box-design"  data-aos="zoom-out-down">
-        <img src="food3.jpg" alt="Clean Code" class="box-code" data-aos="zoom-out-right" >
-        <img src="food1.jpg" alt="Feature" class="box-feature"  data-aos="zoom-out-right">
-        <!-- <div class="common-icon1">
-            <img src="figma.png">
+<div class="services">
+  <p class="services-heading">Why choose Show My Product</p>
+  <div class="container">
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4 col-12">
+        <div class="services-container">
+          <div class="icon-container" [ngClass]="{ hovered: isHovered1 }">
+            <img 
+              [src]="isHovered1 ? 'whyus-img2.svg' : ' why-img1.svg'" alt="Icon" class="icon-circle"/>
+          </div>
+          <div
+            class="service-card"
+            (mouseenter)="isHovered1 = true"
+            (mouseleave)="isHovered1 = false"
+            [ngClass]="{ hovered: isHovered1 }"
+          >
+            <p class="why-title">Branded Menus</p>
+            <p class="why-subtitle">Enhance guest satisfaction with bilingual, interactive digital menus accessed via QR codes.</p>
+          </div>
         </div>
-        <div class="common-icon2">
-            <img src="dimond.png">
-        </div>
-        <div class="common-icon">
-            <img src="shopify.png">
-        </div> -->
       </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4 col-12">
+        <div class="services-container">
+          <div class="icon-container" [ngClass]="{ hovered: isHovered2 }">
+            <img 
+              [src]="isHovered2 ? ' whyhand2.svg' : 'why-hand1.svg'" alt="Icon" class="icon-circle"/>
+          </div>
+          <div
+            class="service-card"
+            (mouseenter)="isHovered2 = true"
+            (mouseleave)="isHovered2 = false"
+            [ngClass]="{ hovered: isHovered2 }"
+          >
+            <p class="why-title">No Printing Hassles</p>
+            <p class="why-subtitle"> Eliminate printing costs! Update your menu instantly.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4 col-12">
+        <div class="services-container">
+          <div class="icon-container" [ngClass]="{ hovered: isHovered3 }">
+            <img 
+              [src]="isHovered3 ? 'touch1.svg' : 'touch2.svg'" alt="Icon" class="icon-circle"/>
+          </div>
+          <div
+            class="service-card"
+            (mouseenter)="isHovered3 = true"
+            (mouseleave)="isHovered3 = false"
+            [ngClass]="{ hovered: isHovered3 }"
+          >
+            <p class="why-title">Touch-Free Hygiene</p>
+            <p class="why-subtitle">Provide a touch-free menu option for better hygiene in your shop.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-4 col-12">
+        <div class="services-container">
+          <div class="icon-container" [ngClass]="{ hovered: isHovered4 }">
+            <img 
+              [src]="isHovered4 ? 'menu1.svg' : 'menu2.svg'" alt="Icon" class="icon-circle"/>
+          </div>
+          <div
+            class="service-card"
+            (mouseenter)="isHovered4 = true"
+            (mouseleave)="isHovered4 = false"
+            [ngClass]="{ hovered: isHovered4 }"
+          >
+            <p class="why-title">Customizable Menus</p>
+            <p class="why-subtitle">Highlight specials and seasonal offerings in real time</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-md-4 col-12">
+        <div class="services-container">
+          <div class="icon-container" [ngClass]="{ hovered: isHovered5 }">
+            <img 
+              [src]="isHovered5 ? 'analytics2.svg' : 'analytics1.svg'" alt="Icon" class="icon-circle"/>
+          </div>
+          <div
+            class="service-card"
+            (mouseenter)="isHovered5 = true"
+            (mouseleave)="isHovered5 = false"
+            [ngClass]="{ hovered: isHovered5 }"
+          >
+            <p class="why-title">Real-Time Analytics</p>
+            <p class="why-subtitle">Track orders, payments, and customer preferences with ease.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <!-- <div class="col-sm-4 col-12">
+        <div class="services-container">
+          <div class="icon-container" [ngClass]="{ hovered: isHovered6 }">
+            <img 
+              [src]="isHovered6 ? 'i1.svg' : 'i2.svg'" alt="Icon" class="icon-circle"/>
+          </div>
+          <div class="service-card"
+            (mouseenter)="isHovered6 = true"
+            (mouseleave)="isHovered6 = false"
+            [ngClass]="{ hovered: isHovered6 }"
+          >
+            <p class="why-title">Real-Time Analytics</p>
+            <p class="why-subtitle">Track orders, payments, and customer preferences for data-driven insights.</p>
+          </div>
+        </div>
+      </div> -->
+
+
+
+      <div class="col-md-4 col-12">
+        <div class="services-container">
+          <div class="icon-container" [ngClass]="{ hovered: isHovered6 }">
+            <img 
+              [src]="isHovered6 ? 'order2.svg' : 'order1.svg'" alt="Icon" class="icon-circle"/>
+          </div>
+          <div
+            class="service-card"
+            (mouseenter)="isHovered6 = true"
+            (mouseleave)="isHovered6 = false"
+            [ngClass]="{ hovered: isHovered6 }"
+          >
+            <p class="why-title">Seamless Ordering Experience</p>
+            <p class="why-subtitle">Allow customers to browse, order, and pay directly through their phones for a smooth, efficient process.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
-
-    <div class="col-md-6" data-aos="zoom-out-up">
-        
-        <p class="why-subtitle">Enjoy quick ordering, safe payments, and immediate access. Use our digital menu to streamline your shopping, save time, and experience hassle-free service.</p>
-        <ul class="benefits-list">
-            <li class="mb-2"><img src="check.png" alt="Start Icon" class="icon"> Instant Access - See the menu right away and avoid having to wait for a waiter.</li>
-            <li class="mb-2"><img src="check.png" alt="Start Icon" class="icon"> User-friendly - A frictionless purchasing experience is ensured by the seamless navigation.</li>
-            <li class="mb-2"><img src="check.png" alt="Start Icon" class="icon"> Quick Ordering - Just tap to choose products and submit orders.</li>
-            <li class="mb-2"><img src="check.png" alt="Start Icon" class="icon"> Order Notifications - When a new order is placed, the shopkeeper receives immediate notifications.</li>
-            <li class="mb-2"><img src="check.png" alt="Start Icon" class="icon"> Secure Transactions - Use a QR code to make a secure payment with immediate confirmation.</li>
-            <li class="mb-2"><img src="check.png" alt="Start Icon" class="icon"> Digital Menu - The menu is always current and doesn't require manual upgrades.</li>
-        </ul>
-          
-      </div>
   </div>
-</section>
 </div>

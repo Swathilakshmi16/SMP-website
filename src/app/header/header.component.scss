@@ -1,48 +1,70 @@
- 
-.common-center-align{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-left: 10px;
-   
+
+
+// .top-bar {
+//   background-color: #ffc78a;
+//   border-bottom: 1px solid #ddd;
+//   font-size: 14px;
+// }
+
+// .phone-number {
+//   font-weight: bold;
+//   color: #333;
+// }
+
+// .social-icon {
+//   margin-left: 10px;
+//   text-decoration: none;
+// }
+
+// .icon {
+//   width: 20px;
+//   height: 20px;
+// }
+
+
+
+
+
+
+
+
+.common-center-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
 }
- 
-.header-design{
+
+.header-design {
   margin-top: 10px;
   margin-left: 100px;
-  font-family: 'Neue Plak';
+  font-family: "DM Serif Display", serif;
   font-weight: 600;
-
 }
 
-.heal{
+.heal {
   margin-top: -100px;
 }
-
 
 /* General Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
-
-
 
 .logo {
   height: 105px;
   width: 196px;
-
 }
 
 .get {
-    color: white; 
-    background-color: blue;
-    border-radius: 30px;
-    height: 40px;
-    width: 150px;
-    border: none;
+  color: white;
+  background-color: blue;
+  border-radius: 30px;
+  height: 40px;
+  width: 150px;
+  border: none;
 }
 
 .dropdown {
@@ -51,27 +73,21 @@
   border: none;
   padding: 10px;
   cursor: pointer;
-  // font-weight: 600PX;
   text-decoration: none;
-  font-family: "Roboto Slab", serif;
+  font-family: "DM Serif Display", serif;
   font-weight: 500;
   font-size: 19px;
-  
 }
 
-
 .dropdown:hover {
-
   color: #bf8df0;
 }
 
-
-
-@media only screen and (min-width:1200px) {
-  .desktop-hide{
-     display: none;
+@media only screen and (min-width: 1200px) {
+  .desktop-hide {
+    display: none;
   }
-  .side-menu-bar{
+  .side-menu-bar {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -81,17 +97,14 @@
   .logo {
     height: 105px;
     width: 196px;
-
+  }
 }
 
-}
-
-@media only screen and (min-width:600px) and (max-width:1200px){
-  .mobile-hide{
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .mobile-hide {
     display: none;
   }
-
-  .side-menu-bar{
+  .side-menu-bar {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -101,41 +114,38 @@
   .logo {
     height: 77px;
     width: 200px;
-    font-family: "Roboto Slab", serif;
+    font-family: "DM Serif Display", serif;
+  }
+  .menu-bar-align {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .menu-bar {
+    width: 35px;
+    border-color: #cbcaca;
+    border-bottom-width: 3px;
+    border-style: solid;
+  }
+  .offcanvas-title {
+    font-family: "DM Serif Display", serif;
+    color: #f3820c;
+    font-size: medium;
+  }
+  .menu-item {
+    color: #bf8df0;
+    font-weight: bold;
+    text-decoration: none;
+  }
 }
 
-.menu-bar-align{
-  height: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content:space-around;
-}
-.menu-bar{
-  width:35px;
-  border-color: #cbcaca ;
-  border-bottom-width: 3px ;
-  border-style: solid;
-}
-
-.offcanvas-title{
-  font-family: "Roboto Slab", serif;
-  color: #f3820c;
-  font-size: medium;
-}
-.menu-item{
-
-  color: #bf8df0;
-  font-weight: bold;
-  text-decoration: none;
-}
-}
-
-@media only screen and (max-width:600px) {
-  .mobile-hide{
+@media only screen and (max-width: 600px) {
+  .mobile-hide {
     display: none;
   }
-  .side-menu-bar{
+  .side-menu-bar {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -145,33 +155,28 @@
   .logo {
     height: 60px;
     width: 150px;
-}
-.menu-bar-align{
-  height: 30px;
+  }
+  .menu-bar-align {
+    height: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     margin-right: 5px;
+  }
+  .menu-bar {
+    width: 30px;
+    border-color: #f3820c;
+    border-bottom-width: 1.5px;
+    border-style: solid;
+  }
+  .offcanvas-title {
+    font-family: "DM Serif Display", serif;
+    color: #f3820c;
+  }
+  .menu-item {
+    color: #bf8df0;
+    font-weight: bold;
+    text-decoration: none;
+  }
 }
-.menu-bar{
-  width:30px;
-  border-color: #f3820c ;
-  border-bottom-width: 1.5px ;
-  border-style: solid;
-}
-
-.offcanvas-title{
-  font-family: "Roboto Slab", serif;
-  color: #f3820c;
-}
-.menu-item{
-
-  color: #bf8df0;
-  font-weight: bold;
-  text-decoration: none;
-}
-}
-
-
-

@@ -1,532 +1,325 @@
 @media only screen and (min-width:1200px) {
-   
-  .desktop-view-hide{
-    display: none;
- }
-  
-  .section5{
-    margin-top:20px;
-  }
-  .content-block {
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
-  }
-  
-  .smp-top{
+
+
+  .steps-section{
     margin-top: 100px;
   }
+    
   
-  .thi1 {
-    font-size: 20px;
-    color: #555;
-    padding: 0 20px;
-    font-family: "lado", serif;
-    // font-style: italic;
-    margin-top: 67px;
-  }
-  
-
-
-  .pic2 {
-    width: 300px;
-    height: 300px;
-    // border-radius: 8px;
-    margin-left: 100px;
-    object-fit: contain;
-    margin-top: -80px;
-  }
-  
-  .thi2 {
-    font-size: 1em;
-    font-family: "Roboto Slab", serif;
-    color: #555;
-    padding: 0 20px;
-  }
-
-  
-  .thi3 {
-    font-size: 1em;
-    color: #555;
-    padding: 0 20px;
-    font-family: "Roboto Slab", serif;
-  }
-  
-
-  .sub{
-    font-weight: bolder;
-    // text-align: left;
-    font-size: 50px; 
-    font-family: "Roboto Slab", serif;
-    color: #8253d3;
-    // margin-top: 50px;
-    // animation: flashText 1.5s ease-out; 
-    text-align: center;
-    margin-top: 100px;
-  }
-
-  .sub1{
-    font-weight: bold;
-    text-align: center;
-    font-size: 30px;
-    color: #f3820c;
-  // text-shadow: 2px 2px 4px #f3820c;
-  font-family: "Roboto Slab", serif;
-  margin-top: 19px;
-  }
-
-
-
-.smp-align{
-  position: relative;
-  width:100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.smp-square{
-  width: 300px;
-  height: 300px;
-  background-color:#ff0080;
- 
-}
-
-.smp-picture{
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  top: 197px;
-  right: 70px;
-  transform: translate(-50%, -50%);
-  
-}
-
-
-.smp-square1{
-  width: 300px;
-  height: 300px;
-  background-color:#ff0080;
- 
-}
-
-.smp-picture1{
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  top: 206px;
-  left: 368px;
-  transform: translate(-50%, -50%);
-}
-
-  
-}
-    
-@media only screen and (min-width:600px) and (max-width:1200px){
-     
-  .desktop-view-hide{
-    display: none;
- }
-
-      .content-block {
-        display: flex;
-        align-items: center;
-        margin-bottom: 40px;
-      }
-      
-      .thi1 {
-        font-size: 1em;
-        color: #555;
-        padding: 0 20px;
-       
-      }
-      
-    
-    
-      .pic2 {
-        width: 300px;
-        height: 300px;
-        // border-radius: 8px;
-        margin-left: 100px;
-        object-fit: contain;
-        margin-top: -80px;
-      }
-      
-      .thi2 {
-        font-size: 1em;
-        font-family: "Roboto Slab", serif;
-        color: #555;
-        padding: 17px 22px
-      }
-    
-      
-      .thi3 {
-        font-size: 1em;
-        color: #555;
-        padding: 0 20px;
-        font-family: "Roboto Slab", serif;
-      }
-
-    
-      .sub{
-        font-weight: bold;
-        text-align: center;
-        font-size: 2.5em;
-        color: #f3820c;
-        font-family: "Roboto Slab", serif;
-        margin-top: 100px;
-      }
-    
-      .sub1{
-        font-weight: bold;
-        text-align: center;
-        font-size: 1.5em;
-        color: #8652d2;
-      text-shadow: 2px 2px 4px #f3820c;
-      font-family: "Roboto Slab", serif;
-      }
-    
-    
-    
-    .smp-align{
-      position: relative;
-      width:100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      
+    .how-title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-family: 'Urbanist', sans-serif;
+      font-weight:800;
+      font-size:50px;
+      color: #883DCF;
+      margin-top: 40px;
     }
-    
-    .smp-top{
-      margin-top: 100px;
-    }
-    .smp-square{
-      width: 276px;
-    height: 260px;
-      background-color:#ff0080;
-
-     
-    }
-    
-    .smp-picture{
-      width: 314px;
-    height: 260px;
-    position: absolute;
-    top: 156px;
-    right: -66px;
-    transform: translate(-50%, -50%);
-    }
-    
-    .smp-square1{
-      width: 333px;
-    height: 260px;
-      background-color:#ff0080;
-     
-    }
-    
-    .smp-picture1{
-      width: 337px;
-      height: 234px;
-      position: absolute;
-      top: 206px;
-      left: 215px;
-      transform: translate(-50%, -50%);
-    }
-    
-  
-  
-}
-
-    
-@media only screen and (max-width:600px) {
-
-      .mobile-view-hide{
-        display: none;
-     }
-      .section5{
-        margin-top:50px;
-      }
-      .content-block {
-        display: flex;
-        align-items: center;
-        margin-bottom: 40px;
-      }
-      
-
-      .smp-top{
-        margin-top: 100px;
-      }
-      .thi1 {
-        font-size: 1em;
-        color: #555;
-        padding: 0 20px;
-        text-align: justify;
-       
-      }
-      
-    
-    
-      .pic2 {
-        width: 200px;
-        height: 200px;
-        // border-radius: 8px;
-        margin-left: 100px;
-        object-fit: contain;
-        margin-top: -80px;
-      
-      }
-      
-      .thi2 {
-        font-size: 1em;
-        font-family: "Roboto Slab", serif;
-        color: #555;
-        padding: 17px 22px
-      }
-    
-      
-      .thi3 {
-        font-size: 1em;
-        color: #555;
-        padding: 0 20px;
-        font-family: "Roboto Slab", serif;
-      }
-
-    
-      .sub{
-        font-weight: bold;
-        text-align: center;
-        font-size: 1.5em;
-        color: #8652d2;
-        font-family: "Roboto Slab", serif;
-      }
-    
-      .sub1{
-        font-weight: bold;
-        text-align: center;
-        font-size: 1.5em;
-        color: #f3820c;
-        // text-shadow: 2px 2px 4px #f3820c;
-        font-family: "Roboto Slab", serif;
-        margin-top: -72px;
-      }
-    
-    
-    
-    .smp-align{
-      position: relative;
-      width:100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      
-    }
-    
-    .smp-top{
-      margin-top: 100px;
-    }
-    .smp-square{
-      width: 236px;
-        height: 218px;
-        margin-top: 11px;
-        background-color: #ff0080;
-
-     
-    }
-    
-    .smp-picture{
-      width: 226px;
-      height: 211px;
-      position: absolute;
-      top: 134px;
-      right: -46px;
-      transform: translate(-50%, -50%);
-  
-    }
-    
-    .smp-square1{
-      width: 244px;
-    height: 211px;
-    margin-top: 9px;
-      background-color:#ff0080;
-     
-    }
-    
-    .smp-picture1{
-      width: 226px;
-      height: 211px;
-      position: absolute;
-      top: 134px;
-      right: -46px;
-      transform: translate(-50%, -50%);
-  
-    }
-  
-  
-  
-}
-    
-    
-    
-       
-// @media only screen and (max-width:600px) {
-
-//   .mobile-view-hide{
-//     display: none;
-//  }
-//   .section5{
-//     margin-top:50px;
-//   }
-//   .content-block {
-//     display: flex;
-//     align-items: center;
-//     margin-bottom: 40px;
-//   }
-  
-
-//   .smp-top{
-//     margin-top: 100px;
-//   }
-//   .thi1 {
-//     font-size: 1em;
-//     color: #555;
-//     padding: 0 20px;
    
-//   }
+    .steps-container {
+      
+      justify-content: center;
+      gap: 20px;
+      padding: 0 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
   
-
-
-//   .pic2 {
-//     width: 200px;
-//     height: 200px;
-//     // border-radius: 8px;
-//     margin-left: 100px;
-//     object-fit: contain;
-//     margin-top: -80px;
   
-//   }
+      .step-card {
+          background-color: #883DCF;
+          border-radius: 10px;
+          padding: 20px;
+          text-align: center;
+          width: 300px;
+          height: auto; 
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+          overflow: hidden; 
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          margin-bottom: 20px; 
+          font-family: 'Urbanist', sans-serif;
+        }
+    
+    
+    .step-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    }
+   
+    .step-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: -21px;
+    }
   
-//   .thi2 {
-//     font-size: 1em;
-//     font-family: "Roboto Slab", serif;
-//     color: #555;
-//     padding: 17px 22px
-//   }
-
+    .how-num {
+      font-size: 48px;
+      font-weight: bold;
+      color: #000;
+      margin-bottom: 10px;
+      font-family: 'Urbanist', sans-serif;
+    }
+   
+    .sub-title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 15px;
+      font-family: 'Urbanist', sans-serif;
+    }
+    
+    
+    .dec {
+      font-size: 16px;
+      color: #666;
+      line-height: 1.5;
+      font-family: 'Urbanist', sans-serif;
+    }
+  }
+  @media only screen and (min-width:768px) and (max-width:1200px){
   
-//   .thi3 {
-//     font-size: 1em;
-//     color: #555;
-//     padding: 0 20px;
-//     font-family: "Roboto Slab", serif;
-//   }
-
-
-//   .sub{
-//     font-weight: bold;
-//     text-align: center;
-//     font-size: 1.5em;
-//     color: #f3820c;
-//     font-family: "Roboto Slab", serif;
-//   }
-//   .sub2{
-//     font-weight: bold;
-//     text-align: center;
-//     font-size: 1.5em;
-//     color: #8652d2;
-//     text-shadow: 2px 2px 4px #f3820c;
-//     font-family: "Roboto Slab", serif;
-//     margin-top: -58px;
-//   }
-
-//   .sub1{
-//     font-weight: bold;
-//     text-align: center;
-//     font-size: 1.5em;
-//     color: #8652d2;
-//     text-shadow: 2px 2px 4px #f3820c;
-//     font-family: "Roboto Slab", serif;
-//     margin-top: -87px;
-//   }
-
-//   .sub3{
-//     font-weight: bold;
-//     text-align: center;
-//     font-size: 1.5em;
-//     color: #8652d2;
-//     text-shadow: 2px 2px 4px #f3820c;
-//     font-family: "Roboto Slab", serif;
-//     margin-top: -47px;
-//   }
-
-// .smp-align{
-//   position: relative;
-//   width: 108%;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   margin-top: -16px;
-
+    .steps-section{
+      margin-top: 100px;
+    }
+      
+    
+      .how-title {
+        text-align: center;
+        margin-bottom: 38px;
+        font-family: "Urbanist", sans-serif;
+        font-weight: 800;
+        font-size: 45px;
+        color: #883DCF;
+        margin-top: 40px;
+      }
+     
+      .steps-container {
+        
+        justify-content: center;
+        gap: 20px;
+        padding: 0 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+    
+    
+        .step-card {
+            background-color: #883DCF;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 219px;
+            height: auto; 
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden; 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 20px; 
+            font-family: 'Urbanist', sans-serif;
+          }
+      
+      
+      .step-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+      }
+     
+      .step-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: -21px;
+      }
+    
+      .how-num {
+        font-size: 35px;
+        font-weight: bold;
+        color: #000;
+        margin-bottom: 10px;
+        font-family: 'Urbanist', sans-serif;
+      }
+     
+      .sub-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 15px;
+        font-family: 'Urbanist', sans-serif;
+      }
+      
+      
+      .dec {
+        font-size: 14px;
+        color: #666;
+        line-height: 1.5;
+        font-family: 'Urbanist', sans-serif;
+      }
   
-// }
-
-// .smp-top{
-//   margin-top: 100px;
-// }
-// .smp-square{
-//   width: 256px;
-//   height: 235px;
-//   margin-top: 29px;
-//   background-color:#ff0080;
-
- 
-// }
-
-// .smp-picture{
-//   width: 238px;
-// height: 211px;
-// position: absolute;
-// top: 171px;
-// right: -29px;
-// transform: translate(-50%, -50%);
-// }
-
-// .smp-square1{
-//   width: 244px;
-// height: 211px;
-// margin-top: 9px;
-//   background-color:#ff0080;
- 
-// }
-
-// .smp-picture1{
-//   width: 239px;
-//   height: 206px;
-//   position: absolute;
-//   top: 145px;
-//   left: 150px;
-//   transform: translate(-50%, -50%);
-
-// }
-
-// .smp-picture3{
-//   width: 238px;
-// height: 211px;
-// position: absolute;
-// top: 171px;
-// right: -29px;
-// transform: translate(-50%, -50%);
-// }
-
-// .smp-square3{
-//   width: 256px;
-//   height: 235px;
-//   margin-top: 29px;
-//   background-color:#ff0080;
-
- 
-// }
-
-// }
-
-
-
+  }
+  @media only screen and (min-width:599px) and (max-width:767px){
+    .steps-section {
+      margin-top: 100px;
+      display: flex;
+      justify-content: center; /* Centering the content horizontally */
+      align-items: center; /* Centering the content vertically if needed */
+      flex-direction: column;
+    }
+    
+    .how-title {
+      text-align: center;
+      margin-bottom: 38px;
+      font-family: "Urbanist", sans-serif;
+      font-weight: 800;
+      font-size: 45px;
+      color: #883DCF;
+      margin-top: 40px;
+    }
+    
+    .steps-container {
+      display: flex;
+      justify-content: center; /* Center the items horizontally */
+      align-items: center; /* Center the items vertically */
+      gap: 20px;
+      padding: 0 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      flex-wrap: wrap; /* Allow items to wrap to next line if needed */
+    }
+    
+    .step-card {
+      background-color: #883DCF;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      width: 219px;
+      height: auto;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      font-family: 'Urbanist', sans-serif;
+    }
+    
+    .step-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .step-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: -21px;
+      display: block; /* Ensures the image is centered */
+      margin-left: auto; /* Center the image horizontally */
+      margin-right: auto; /* Center the image horizontally */
+    }
+    
+    .how-num {
+      font-size: 35px;
+      font-weight: bold;
+      color: #000;
+      margin-bottom: 10px;
+      font-family: 'Urbanist', sans-serif;
+      text-align: center; /* Ensure the number is centered */
+    }
+    
+    .sub-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 15px;
+      font-family: 'Urbanist', sans-serif;
+      text-align: center; /* Ensure subtitle is centered */
+    }
+    
+    .dec {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.5;
+      font-family: 'Urbanist', sans-serif;
+      text-align: center; /* Ensure description is centered */
+    }
+  }  
+  @media only screen and (max-width: 600px) {
+  
+    .steps-section {
+      margin-top: 55px;
+      display: flex;
+      justify-content: center; /* Centering the content horizontally */
+      align-items: center; /* Centering the content vertically if needed */
+      flex-direction: column; /* Aligning child elements in a column */
+    }
+    
+    .how-title {
+      text-align: center;
+      margin-bottom: 28px;
+      font-family: "Urbanist", sans-serif;
+      font-weight: 800;
+      font-size: 28px;
+      color: #883DCF;
+    }
+    
+    .steps-container {
+      display: flex;
+      justify-content: center; /* Center the items horizontally */
+      align-items: center; /* Center the items vertically */
+      gap: 20px;
+      padding: 0 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      flex-wrap: wrap; /* Allow the steps to wrap to the next line if space is limited */
+    }
+    
+    .step-card {
+      background-color: #883DCF;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      width: 246px;
+      height: auto;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      // margin-bottom: 20px;
+      font-family: "Urbanist", sans-serif;
+    }
+    
+    .step-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .step-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: -21px;
+    }
+    
+    .how-num {
+      font-size: 29px;
+      font-weight: bold;
+      color: #000;
+      margin-bottom: 5px;
+      font-family: "Urbanist", sans-serif;
+      text-align: center; /* Align the number in the center */
+    }
+    
+    .sub-title {
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 15px;
+      font-family: "Urbanist", sans-serif;
+      text-align: center; /* Align the subtitle in the center */
+    }
+    
+    .dec {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.5;
+      font-family: "Urbanist", sans-serif;
+      text-align: center; /* Align the description in the center */
+      margin-top: -7px;
+    }
+  }  
