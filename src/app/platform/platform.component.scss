@@ -167,7 +167,7 @@
     font-size: 2rem;
     font-weight: bold;
     color: #0a2647;
-    font-family: 'Neue Plak Condensed Regular', sans-serif;
+    font-family: 'chillax', sans-serif;
     font-weight: 800;
 }
 
@@ -187,7 +187,9 @@
     height: 100%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+.subpara{
+    font-family: 'lato', sans-serif;
+}
 .testimonial-card img {
     width: 100px;
     height: 100px;
@@ -200,7 +202,7 @@
 
 .testimonial-card h5 {
     color: #0a2647;
-    font-family: 'Neue Plak Condensed Regular', sans-serif;
+    font-family: 'chillax', sans-serif;
     font-weight: 800;
 }
 
@@ -215,13 +217,13 @@
     font-size: 0.95rem;
     color: #333;
     margin-top: 10px;
-    font-family: "Lado", serif;
+    font-family: "Lato", serif;
 }
 .test-title{
     font-weight: bolder;
     text-align: center;
     font-size: 45px; 
-    font-family: 'Neue Plak Condensed Regular', sans-serif;
+    font-family: 'chillax', sans-serif;
     font-weight: 800;
     color: #8253d3;
     margin-top: 100px;
