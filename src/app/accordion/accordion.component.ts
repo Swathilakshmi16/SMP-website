@@ -18,7 +18,7 @@ export class AccordionComponent {
   }
 
   sendWhatsAppMessage(name: string, email: string, phone: string, message: string) {
-    const phoneNumber = '6379981909'; // Replace with the recipient's WhatsApp number
+    const phoneNumber = '6379981909'; 
     const formattedMessage = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`;
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(formattedMessage)}`;
     window.open(url, '_blank');
