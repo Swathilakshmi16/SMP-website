@@ -5,18 +5,15 @@ import * as AOS from 'aos';
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
-export class HeaderComponent implements OnInit {
-isMenuOpen: any;
-toggleMenu() {
-throw new Error('Method not implemented.');
-}
-  
-  ngOnInit(): void {
-    AOS.init({
-      duration: 1000,
-      once: false,
-});
-}
+export class HeaderComponent {
+
+
+
+isMenuOpen: boolean = false;
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 
 
 }
