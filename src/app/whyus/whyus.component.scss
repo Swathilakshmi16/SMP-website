@@ -431,8 +431,8 @@
 }
 .service-card.hovered .why-subtitle {
   color: white;
-  font-size: 19px;
-  font-family: "Lado", serif;
+  font-size: 17px;
+  font-family: "Lato", serif;
 
 
 }
@@ -453,7 +453,7 @@
   color: rgba(0, 0, 0, 0.523); 
   line-height: 1.5;
   transition: color 0.3s ease;
-  font-family: "Lado", serif;
+  font-family: "Lato", serif;
 
 
 }
@@ -473,8 +473,7 @@
   z-index: 2;
   position: relative;
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-  font-family: "DM Serif Display", serif;
-
+  font-family: "chillax", serif;
   margin-left: 53px;
   margin-bottom: 0px;
 }
@@ -533,8 +532,7 @@
     z-index: 2;
     position: relative;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    font-family: "DM Serif Display", serif;
-
+    font-family: "chillax", serif;
     margin-left: 18px;
     margin-bottom: 0px;
   }
@@ -583,13 +581,15 @@
   .service-card.hovered .why-title{
     color: white;
     font-size: 24px;
-    font-family: "DM Serif Display", serif;
+    font-family: "chillax", serif;
+
 
   }
   .service-card.hovered .why-subtitle {
     color: white;
     font-size: 17px;
-    font-family: "DM Serif Display", serif;
+    font-family: "chillax", serif;
+
 
   }
   
@@ -599,7 +599,8 @@
     font-weight: bold;
     color:rgba(0, 0, 0, 0.399);
     margin-top: 18px;
-    font-family: "DM Serif Display", serif;
+    font-family: "chillax", serif;
+
 
   }
   
@@ -608,7 +609,8 @@
     font-size: 17px;
     color: rgba(0, 0, 0, 0.519); 
     transition: color 0.3s ease;
-    font-family: "DM Serif Display", serif;
+    font-family: "chillax", serif;
+
 
   }
   
