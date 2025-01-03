@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 80vh;
     margin-top: -40px;
    
 }
@@ -84,6 +84,7 @@
     border-radius: 50px;
     margin-bottom: 10px;
     border: 2px solid #f3820c;
+    font-family: 'lato', sans-serif;
 }
 
 .input-btn button{
@@ -92,6 +93,8 @@
     border-radius: 50px;
     padding: 12px;
     background-color:#f3820c ;
+    font-family: 'lato', sans-serif;
+
     
 }
 .input-head p{
@@ -100,10 +103,12 @@
     margin-bottom: 30px;
     font-weight: 600;
     margin-left: 10px;
+    font-family: 'chillax', sans-serif;
 
 }
 .get-quote{
     margin-left: 20px;
+
 }
 }
 @media only screen and (min-width:600px) and (max-width:1200px){
@@ -138,7 +143,7 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
-    font-family: "lado", serif;
+    font-family: "lato", serif;
     // font-style: italic;
 }
 
@@ -161,7 +166,7 @@
     color: #333;
     width: 700px;
     height: 100px;
-    font-family: "lado", serif;
+    font-family: "lato", serif;
     // font-style: italic;
     font-size: 19px;
 }
@@ -174,7 +179,7 @@
     font-weight: bolder;
     text-align: left;
     font-size: 50px; 
-    font-family: "Roboto Slab", serif;
+    font-family: 'chillax', sans-serif;
     color: #8253d3;
     margin-top: 100px;
     animation: flashText 1.5s ease-out;
