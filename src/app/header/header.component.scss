@@ -7,13 +7,40 @@
 
  
 // }
+.hd-btn {
+  background-color: #f3820c;
+  color: #ffffff;
+  padding: 8px 15px;
+  border-radius: 20px;
+  
+  font-size: 20px;
 
+  text-decoration: none;
+  
+
+  text-align: center;  
+  align-items: center;
+
+  margin-left: 25px;
+  font-family: 'Neue Plak Condensed Regular', sans-serif;
+
+ 
+}
+.hd-btn a{
+  text-decoration: none; 
+  color: white; 
+}
+.top-header{
+  border-bottom: 1px solid white;
+  box-shadow: 2px 2px 2px 2px #f0cfad ;
+}
 
 .mbview {
 display: none;
 
 }
 .ddview{
+
 margin-top: 15px;
 
 border-radius: 100px;
