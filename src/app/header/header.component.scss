@@ -1,12 +1,12 @@
-// .top-header {
-//   position: fixed; 
-//   top: 0; 
-//   left: 0;
-//   width: 100%; 
-//   z-index: 1000;
+.top-header {
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  z-index: 1001;
+  background-color: white;
+}
 
- 
-// }
 .hd-btn {
   background-color: #f3820c;
   color: #ffffff;
@@ -27,6 +27,9 @@
 .top-header{
   border-bottom: 1px solid white;
   box-shadow: 2px 2px 2px 2px #f0cfad ;
+  // background-image: url(../../../public/arrow1.png),url(../../../public/arrow2.png),url(../../../public/arrow3.png);
+  // background-repeat: no-repeat;
+  // background-position: 10% 0%, 20%,0%;
 }
 
 .mbview {
@@ -36,7 +39,7 @@ display: none;
 .ddview{
 
 margin-top: 15px;
-border: 1px solid white;
+
 
 }
 .nums{
