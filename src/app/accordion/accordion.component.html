@@ -96,15 +96,18 @@
       <div class="input-head">
         <p>Get started with a free Demo</p>
       </div>
-      <div class="input-box">
-        <input type="text" placeholder="Name">
-      <input type="text" placeholder="Email">
-      <input type="text" placeholder="Phone Number">
-      <input type="text" placeholder="Message" class="input-msg">
-      </div>
-      <div class="input-btn">
-        <button (click)="sendWhatsAppMessage()">Submit</button> 
-      </div>
+      <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+        <div class="input-box">
+          <input type="text" name="name" ngModel placeholder="Name" required />
+          <input type="email" name="email" ngModel placeholder="Email" required email />
+          <input type="tel" name="phone" ngModel placeholder="Phone Number" required pattern="^[0-9\s\-\+\(\)]*$" />
+          <input type="text" name="message" ngModel placeholder="Message" class="input-msg" required />
+        </div>
+        <div class="input-btn">
+          <button type="submit" [disabled]="contactForm.invalid">Submit</button>
+        </div>
+      </form>
+      
       
     </div>
      

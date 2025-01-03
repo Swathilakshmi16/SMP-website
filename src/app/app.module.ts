@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms'; 
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -19,6 +20,7 @@ import { PaymentComponent } from './payment/payment.component';
 import { WpprocessComponent } from './wpprocess/wpprocess.component';
 import { WpComponent } from './wp/wp.component';
 import { AccordionComponent } from './accordion/accordion.component';
+
 
 @NgModule({
   declarations: [
@@ -42,7 +44,8 @@ import { AccordionComponent } from './accordion/accordion.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [
     provideClientHydration()
