@@ -35,8 +35,8 @@
   .titlem {
     font-weight: bolder;
     text-align: left;
-    font-size: 50px; 
-    font-family: 'Neue Plak Condensed Regular', sans-serif;
+    font-size: 45px; 
+    font-family: 'chillax', sans-serif;
     font-weight: 800;
     color: #8253d3;
     margin-top: 100px;
@@ -47,13 +47,13 @@
   }
   
   .subtitle {
-    font-family: "lato, serif";
+    font-family: "Lato", serif;
     font-weight: 150px;
     color: #3D4C5E;
     animation: flashText 2s ease-out;
     // margin-top: 37px;
     text-align: left; 
-    font-size: 25px;
+    font-size: 21px;
   }
   
 
@@ -81,8 +81,8 @@
 
 .sap {
   // font-weight: bolder;
-  font-size: 50px;
-  font-family: 'Neue Plak Condensed Regular', sans-serif;
+  font-size: 45px;
+  font-family: 'Chillax', sans-serif;
   font-weight: 800;
   color: #f3820c;
   margin-top: 10px;
@@ -93,14 +93,14 @@
 .contact-button {
   background-color: #f3820c;
   color: #ffffff;
-  width:31%;  
+  width:21%;  
   height: 50px;   
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
   border-radius: 5px 29px 2px 29px;
   border: none;
-  margin-top: 30px;
+  margin-top: 54px;
   display: inline-block;  
   text-align: center;  
   line-height: 50px; 
@@ -114,12 +114,12 @@
 .contact-button:hover {
   background-color: #8253d3;
   color: #ffffff;
-  width: 31%;
+  width: 21%;
   font-size: 20px;
   font-weight: 600;
   border: none;
   border-radius: 29px 5px 30px 2px;
-  margin-top: 20px;  
+  margin-top: 40px;  
   line-height: 50px;  
   height: 50px; 
   text-align: center;  
@@ -180,7 +180,7 @@
     }
     
     .subtitle {
-      font-family: "DM Serif Display", serif;
+      font-family: "Lato", serif;
         font-weight: 150px;
         color: #3D4C5E;
         animation: flashText 2s ease-out;
