@@ -4,11 +4,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 60vh;
     margin-top: -40px;
    
 }
-
+.total{
+    margin-top: 40px;
+}
 
 
 .card {
@@ -70,8 +72,37 @@
     font-family: 'chillax', sans-serif;
     font-size: 800;
     color: #8253d3;
-    
+    margin-top: 30px;
+    margin-bottom: 30px;
     animation: flashText 1.5s ease-out;
+}
+
+.input-box input{
+    width: 80%;
+    padding: 16px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    border: 2px solid #f3820c;
+}
+
+.input-btn button{
+    width: 80%;
+    border: 2px solid #f3820c;
+    border-radius: 50px;
+    padding: 12px;
+    background-color:#f3820c ;
+    
+}
+.input-head p{
+    margin-top: 80px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+
+}
+.get-quote{
+    margin-left: 20px;
 }
 }
 @media only screen and (min-width:600px) and (max-width:1200px){
