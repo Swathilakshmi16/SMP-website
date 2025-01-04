@@ -1,10 +1,6 @@
 @media only screen and (min-width:1200px) {
 .wp-main{
     align-items: center;
-    // background-image: url(../../../public/arrow1.png),url(../../../public/arrow2.png),url(../../../public/arrow3.png);
-    // background-repeat: no-repeat;
-    // background-position: 10% 0%, 20%,0%;
-    
 }
 .wp-cont1{
     margin-top: 42px;
@@ -88,6 +84,12 @@
     .wp-main{
         align-items: center;
         
+    }
+    .wp-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     
     .md-view{
@@ -205,6 +207,17 @@
         justify-content: center;
         align-items: center;
     }
+    .wp-img{
+        height: 260px;
+        width: 80%;
+        object-fit: contain;
+    }
+    .wp-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
     
     .wp-main {
         display: flex;
@@ -248,7 +261,7 @@
         color: #f3820c;
         font-family: "Roboto Slab", serif;
         font-weight: bold;
-        margin-top: -31px;
+       
         position: relative;
     }
     
