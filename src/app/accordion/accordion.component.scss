@@ -108,126 +108,47 @@
 }
 .get-quote{
     margin-left: 20px;
+    margin-top: 139px;
 
 }
 }
-@media only screen and (min-width:600px) and (max-width:1200px){
-.accordion-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-   
-}
-
-.accordion {
-    width: 150px;
-    max-width: 500px;
-}
-
-.card {
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.card-header {
-    background: #f3820c;
-    color: white;
-    padding: 15px;
-}
-
-.card-header a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "lato", serif;
-    // font-style: italic;
-}
-
-.card-header a i {
-    margin-right: 10px;
-}
-
-.card-header a.collapsed i {
-    transform: rotate(0deg);
-    transition: transform 0.3s ease;
-}
-
-.card-header a:not(.collapsed) i {
-    transform: rotate(90deg);
-}
-
-.card-body {
-    padding: 20px;
-    background: white;
-    color: #333;
-    width: 700px;
-    height: 100px;
-    font-family: "lato", serif;
-    // font-style: italic;
-    font-size: 19px;
-}
-
-.btn {
-    display: flex;
-    align-items: center;
-}
-.acc-title{
-    font-weight: bolder;
-    text-align: left;
-    font-size: 50px; 
-    font-family: 'chillax', sans-serif;
-    color: #8253d3;
-    margin-top: 100px;
-    animation: flashText 1.5s ease-out;
-}
-}
-
-@media only screen and (max-width:600px) {
+@media only screen and (min-width:600px) and (max-width:1199px){
 
     .accordion-container {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 80vh;
+        height: 40vh;
+        margin-top: -40px;
        
     }
-    
-    .accordion {
-        width: 150px;
-        max-width: 500px;
+    .total{
+        margin-top: 40px;
     }
+    
     
     .card {
         margin-bottom: 10px;
         border: 1px solid #ddd;
         border-radius: 5px;
         overflow: hidden;
-        max-width: 239px;
-        background: #f3820c;
-        color: white;
-        /* padding: 15px; */
-      
+        // margin-top: 50px;
     }
     
     .card-header {
         background: #f3820c;
         color: white;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 5px;
+        // margin-top: 50px;
     }
     
     .card-header a {
         text-decoration: none;
         color: white;
-        font-size: 14px;
+        font-size: 20px;
         font-weight: bold;
-        font-family: "lado", serif;
+        font-family: "lato", serif;
+        // font-style: italic;
     }
     
     .card-header a i {
@@ -247,29 +168,186 @@
         padding: 20px;
         background: white;
         color: #333;
-        /* width: 335px; */
-        // height: 77px;
-        font-family: "lado", serif;
+        width: 700px;
+        height: 100px;
+        font-family: "lato", serif;
+        // font-style: italic;
+        font-size: 19px;
+    }
+    
+    .btn {
+        display: flex;
+        align-items: center;
+        font-family: 'lato', sans-serif;
+    }
+    .acc-title{
+        font-weight: bolder;
+        text-align: center;
+        font-size: 50px; 
+        font-family: 'chillax', sans-serif;
+        font-size: 800;
+        color: #8253d3;
+        margin-bottom: 30px;
+        animation: flashText 1.5s ease-out;
+    }
+    
+    .input-box input{
+        width: 80%;
+        padding: 16px;
+        border-radius: 50px;
+        margin-bottom: 10px;
+        border: 2px solid #f3820c;
+        font-family: 'lato', sans-serif;
+    }
+    
+    .input-btn button{
+        width: 80%;
+        border: 2px solid #f3820c;
+        border-radius: 50px;
+        padding: 12px;
+        background-color:#f3820c ;
+        font-family: 'lato', sans-serif;
+    
+        
+    }
+    .input-head p{
+        margin-top: 80px;
+        font-size: 25px;
+        margin-bottom: 30px;
+        font-weight: 600;
+        margin-left: 10px;
+        font-family: 'chillax', sans-serif;
+    
+    }
+    .get-quote{
+        margin-left: 20px;
+      
+    
+    }
+    .getquote-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width:599px){
+
+    .accordion-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+       
+       
+    }
+    .total{
+        margin-top: 40px;
+    }
+    
+    
+    .card {
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+    
+    }
+    
+    .card-header {
+        background: #f3820c;
+        color: white;
+        padding: 5px;
+        
+    }
+    
+    .card-header a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: "lato", serif;
+        
+    }
+    
+    .card-header a i {
+        margin-right: 10px;
+    }
+    
+    // .card-header a.collapsed i {
+    //     transform: rotate(0deg);
+    //     transition: transform 0.3s ease;
+    // }
+    
+    // .card-header a:not(.collapsed) i {
+    //     transform: rotate(90deg);
+    // }
+    
+    .card-body {
+        padding: 20px;
+        background: white;
+        color: #333;
+        width: 700px;
+        height: 100px;
+        font-family: "lato", serif;
         font-size: 15px;
     }
     
     .btn {
         display: flex;
         align-items: center;
+        font-family: 'lato', sans-serif;
     }
     .acc-title{
         font-weight: bolder;
         text-align: center;
-        font-size: 25px;
-        font-family: "Roboto Slab", serif;
+        font-size: 50px; 
+        font-family: 'chillax', sans-serif;
+        font-size: 800;
         color: #8253d3;
-        margin-top: -235px;
-        animation: flashText 1.5s ease-out;
+        margin-bottom: 30px;
+     
     }
-    .fl{
+    
+    .input-box input{
+        width: 90%;
+        padding: 10px 20px;
+        border-radius: 50px;
+        margin-bottom: 10px;
+        border: 2px solid #f3820c;
+        font-family: 'lato', sans-serif;
+    }
+    
+    .input-btn button{
+        width: 90%;
+        border: 2px solid #f3820c;
+        border-radius: 50px;
+        padding: 10px 20px;
+        background-color:#f3820c ;
+        font-family: 'lato', sans-serif;
+    
+        
+    }
+    .input-head p{
+        margin-top: 104px;
+        font-size: 21px;
+        font-weight: 600;
+        margin-left: 10px;
+        font-family: "chillax", sans-serif;
+    
+    }
+    .get-quote{
+        margin-left: 20px;
+    
+    }
+    .getquote-container{
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
+
 }
