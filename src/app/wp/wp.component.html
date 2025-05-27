@@ -1,9 +1,12 @@
 <div class="dt-view">
     <p class="order-head1" >ONLINE ORDER MANAGEMENT</p>
-    <div class="total-box">
+   
        
         <div class="container">
-            <div class="main1">
+            <div class="row">
+                <div class="col-12">
+                     <div class="total-box">
+                      <div class="main1">
                 <div class="order-section" *ngIf="orderTitle == 'status'">
                     <div class="order-item">
                         <p class="order-head">#101 swathi</p>
@@ -92,9 +95,15 @@
                     </div>
                 </div>
             </div>
+
+                
+         </div>
+        </div>
+            </div>
+          
         </div>
 
-    </div>
+   
 </div>
 
 <div class="md-view">
@@ -102,7 +111,9 @@
         <p class="order-head1">ONLINE ORDER MANAGEMENT</p>
         <div class="total-box">
             <div class="container">
-                <div class="fl">
+                <div class="row">
+                    <div class="col-12">
+                         <div class="fl">
                 <div class="main1">
                     <div class="management-links">
                         <button (click)="changeTab('status')" class="link-item" [ngClass]="orderTitle == 'status' ? 'order-btn-active' : ''">🔄 Status</button>
@@ -176,6 +187,10 @@
                     </div>
                 </div>
             </div>
+
+                    </div>
+                </div>
+               
             </div>
         </div>
     </div>
